@@ -103,14 +103,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VerPro.exe" size="788480">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VerPro.exe" size="787968">
       <assemblyIdentity name="VerPro" version="10.0.0.10" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>UFIkXscXRNYtJMbONX2+E0EzNx++DKhgqQja6DpYzEo=</dsig:DigestValue>
+        <dsig:DigestValue>j1a2FUC48QlLWSA6dg93CvShWyyGC1E4B3yrH5CQxnI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
