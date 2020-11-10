@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="VerPro.exe" version="1.5.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="VerPro.exe" version="1.6.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="VerPro.ico" asmv2:publisher="BaY" co.v1:suiteName="VMS" asmv2:product="VerPro" asmv2:supportUrl="http://bay-packages.gitee.io/verpro/" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="VerPro" version="1.5.0.1" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="VerPro" version="1.6.0.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="VerPro.exe" parameters="" />
   </entryPoint>
   <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
@@ -80,25 +80,16 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VerPro.exe" size="844800">
-      <assemblyIdentity name="VerPro" version="1.5.0.1" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="VerPro" version="1.6.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>f76EZ+uW3/pVZQUUtqgHEEKhtIPDb7latxhkozh45Tw=</dsig:DigestValue>
+        <dsig:DigestValue>bCWaeN8C+srOcPGtTJgcozzZiX/NK11m1wbsdtL4Rp0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Package\Default.SFX" size="309760">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>ZmxSEdXQ4kyMgG+Vi+rt3n67U+jFPiCSbtWvCy4fBL8=</dsig:DigestValue>
-    </hash>
-  </file>
   <file name="Package\msi.ico" size="4710">
     <hash>
       <dsig:Transforms>
@@ -115,15 +106,6 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>b8u4HRbnMildCOvBLoF4dJbzfpeEkYPRa1WxgvspFMQ=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="Package\WinRAR.exe" size="2355656">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Eg/wBdAzCvX/hxJ2xaaGIYbom8QH7n2yg5O7aHIGAxI=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Setting.json" size="0">
