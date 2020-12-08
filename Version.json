@@ -1,5 +1,10 @@
 {
-  "VersionNow": "2.6.0.0",
+  "VersionNow": {
+    "_Major": 2,
+    "_Minor": 7,
+    "_Build": 0,
+    "_Revision": 0
+  },
   "VersionBase": null,
   "Customer": null,
   "OrderNumber": null,
