@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="VerPro.exe" version="2.7.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="VerPro.exe" version="2.7.0.6" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="VerPro.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -90,13 +90,13 @@
       <dsig:DigestValue>vKQbmD8Y9ot/tqMM4Y1PxIC4bV7yQzUqrVhpzfY24OI=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="VerPro.dll" size="1016832">
+  <file name="VerPro.dll" size="1016320">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>yxVy9XAjlpbomh7uVMXtMyQQ8Y24XiWxob5SWMnUEAY=</dsig:DigestValue>
+      <dsig:DigestValue>qRYk4dHCSmomoTaFa9eRYYGjFx35o4dYEaKQOOJArTs=</dsig:DigestValue>
     </hash>
   </file>
   <file name="VerPro.exe" size="216576">
@@ -105,7 +105,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>GqkuokgGJLxB9HOa+SV/52EuQD5uOE9gvakiWjUM+3g=</dsig:DigestValue>
+      <dsig:DigestValue>nH3Yn8KUHnqEh8pDvb8qbWupYRevJ0ZrklazrcOwZ1I=</dsig:DigestValue>
     </hash>
   </file>
   <file name="VerPro.ico" size="67623">
