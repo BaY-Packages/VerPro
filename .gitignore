@@ -4,7 +4,6 @@
 
 /.vs
 /VerPro.exe
-/Launcher.exe
 *.pdb
 *.json
 *.dll
