@@ -1,0 +1,134 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "VerPro/1.0.0": {
+        "dependencies": {
+          "H.NotifyIcon.Wpf": "2.0.118",
+          "Serilog.Sinks.File": "5.0.0"
+        },
+        "runtime": {
+          "VerPro.dll": {}
+        }
+      },
+      "H.GeneratedIcons.System.Drawing/2.0.118": {
+        "dependencies": {
+          "System.Drawing.Common": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/H.GeneratedIcons.System.Drawing.dll": {
+            "assemblyVersion": "2.0.118.0",
+            "fileVersion": "2.0.118.0"
+          }
+        }
+      },
+      "H.NotifyIcon/2.0.118": {
+        "dependencies": {
+          "H.GeneratedIcons.System.Drawing": "2.0.118"
+        },
+        "runtime": {
+          "lib/net7.0/H.NotifyIcon.dll": {
+            "assemblyVersion": "2.0.118.0",
+            "fileVersion": "2.0.118.0"
+          }
+        }
+      },
+      "H.NotifyIcon.Wpf/2.0.118": {
+        "dependencies": {
+          "H.NotifyIcon": "2.0.118"
+        },
+        "runtime": {
+          "lib/net7.0-windows7.0/H.NotifyIcon.Wpf.dll": {
+            "assemblyVersion": "2.0.118.0",
+            "fileVersion": "2.0.118.0"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/7.0.0": {},
+      "Serilog/2.10.0": {
+        "runtime": {
+          "lib/netstandard2.1/Serilog.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.10.0.0"
+          }
+        }
+      },
+      "Serilog.Sinks.File/5.0.0": {
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.File.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "System.Drawing.Common/7.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "7.0.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VerPro/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "H.GeneratedIcons.System.Drawing/2.0.118": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-slPrVrIEKgicjwVYgARxQw4D5EnmGD0F5Hy+QXW3WK6xJLMXFuw7FimkiZnrLQhgYbD0D2hpLO+42hAVAz+w1g==",
+      "path": "h.generatedicons.system.drawing/2.0.118",
+      "hashPath": "h.generatedicons.system.drawing.2.0.118.nupkg.sha512"
+    },
+    "H.NotifyIcon/2.0.118": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q3gIoRcYxxLfOISzRcYn9OpYUXwKxheRYjVOesL9xc5yoXC6YCel4xb95WgPt1hnXhZbjlVEJWnNiUM/o+Rpjg==",
+      "path": "h.notifyicon/2.0.118",
+      "hashPath": "h.notifyicon.2.0.118.nupkg.sha512"
+    },
+    "H.NotifyIcon.Wpf/2.0.118": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vg/YOyDaqY2Byjj/GXngvS5apoxe45nB/HGd25n6TA1E4X04/LtrQorVek1CM0/On3jHkr92XWtdGlQ5UDRNzw==",
+      "path": "h.notifyicon.wpf/2.0.118",
+      "hashPath": "h.notifyicon.wpf.2.0.118.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2nXPrhdAyAzir0gLl8Yy8S5Mnm/uBSQQA7jEsILOS1MTyS7DbmV1NgViMtvV1sfCD1ebITpNwb1NIinKeJgUVQ==",
+      "path": "microsoft.win32.systemevents/7.0.0",
+      "hashPath": "microsoft.win32.systemevents.7.0.0.nupkg.sha512"
+    },
+    "Serilog/2.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+QX0hmf37a0/OZLxM3wL7V6/ADvC1XihXN4Kq/p6d8lCPfgkRdiuhbWlMaFjR9Av0dy5F0+MBeDmDdRZN/YwQA==",
+      "path": "serilog/2.10.0",
+      "hashPath": "serilog.2.10.0.nupkg.sha512"
+    },
+    "Serilog.Sinks.File/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uwV5hdhWPwUH1szhO8PJpFiahqXmzPzJT/sOijH/kFgUx+cyoDTMM8MHD0adw9+Iem6itoibbUXHYslzXsLEAg==",
+      "path": "serilog.sinks.file/5.0.0",
+      "hashPath": "serilog.sinks.file.5.0.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KIX+oBU38pxkKPxvLcLfIkOV5Ien8ReN78wro7OF5/erwcmortzeFx+iBswlh2Vz6gVne0khocQudGwaO1Ey6A==",
+      "path": "system.drawing.common/7.0.0",
+      "hashPath": "system.drawing.common.7.0.0.nupkg.sha512"
+    }
+  }
+}
