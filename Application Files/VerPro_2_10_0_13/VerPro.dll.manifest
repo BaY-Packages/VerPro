@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="VerPro.exe" version="2.10.0.12" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="VerPro.exe" version="2.10.0.13" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="VerPro.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -54,58 +54,67 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="H.GeneratedIcons.System.Drawing.dll" size="15360">
+  <file name="H.GeneratedIcons.System.Drawing.dll" size="15872">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>2zjxxHZcyJv1WbsOCjfPf4urcwBC4ailAY/jIadzhIs=</dsig:DigestValue>
+      <dsig:DigestValue>DK6HZ9iSKC/XbOfzE7LYafSVzXQSY5p3yrKkc2XQCko=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="H.NotifyIcon.dll" size="381952">
+  <file name="H.NotifyIcon.dll" size="391168">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>rRnaTpL6HXbWCi8loF5ZQuO7YjjtTbFylrtt61mNpMo=</dsig:DigestValue>
+      <dsig:DigestValue>mVuel7Mv9O7HtTkyz7XaeNT7N80T2x9jEGKads5QjPc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="H.NotifyIcon.Wpf.dll" size="193024">
+  <file name="H.NotifyIcon.Wpf.dll" size="194560">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>NkOc10h0ZX8oq8lh6v3w1WfY8FbINENEKdOGRIL78Y8=</dsig:DigestValue>
+      <dsig:DigestValue>QxSprSgmC7v7JtQRPiS9Mw0MooO0jFeZiSxMRzdALTI=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Serilog.dll" size="128000">
+  <file name="Serilog.dll" size="153088">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>2wpMSiGhugk30cIglcKwcCQi79THpBqqV3YIKIouafw=</dsig:DigestValue>
+      <dsig:DigestValue>YkXM2TD7GVaqlpIXkmsn44fb85hn/aJN+LkXZnVFG8Q=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Serilog.Sinks.File.dll" size="31232">
+  <file name="Serilog.Sinks.File.dll" size="30720">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>GSqX9qLkCMNtnsig7ua7ozpRbd7fNmLAMdiOdEYp+ZE=</dsig:DigestValue>
+      <dsig:DigestValue>/gKnxwsGabDgRJv2BdCQvoaO/wsRVW2zFW7D2YNMR8Y=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="VerPro.deps.json" size="4438">
+  <file name="System.Drawing.Common.dll" size="611088">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>O8JlAjpu5Uqlprj6jULRiC0CIDKudk+vvlFeW/o5xwg=</dsig:DigestValue>
+      <dsig:DigestValue>OhkwyiCNMHjyQd8cfELC+APfLFuDV1J9pgWbI6H6dqc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="VerPro.deps.json" size="4569">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>s8EJh2rXWuOjBt4yoPJhuNOAc//IvbLVZtKR6q+CK5U=</dsig:DigestValue>
     </hash>
   </file>
   <file name="VerPro.dll" size="1185792">
@@ -114,7 +123,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>CbauWrHxh50TXrP+z+53DkW4zXrXR/WTdZeH56JoU/Y=</dsig:DigestValue>
+      <dsig:DigestValue>iafU0JbGSNQBsEYd5XMN2vV5ck2ACRPWhZmptCuAHdk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="VerPro.exe" size="206336">
@@ -123,7 +132,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>aEL4IBV1xOWXyg4Rmog7i9TEa5JkrQ1xin+7Jer4a28=</dsig:DigestValue>
+      <dsig:DigestValue>IusxmYeQGYxGpRyt5QlBoCU23F1nLKxx1hVgEQOBJ/w=</dsig:DigestValue>
     </hash>
   </file>
   <file name="VerPro.ico" size="67623">
